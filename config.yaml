@@ -1,0 +1,9 @@
+prometheus_url: http://localhost:9090
+pushgateway_url: http://localhost:9091
+metrics:
+  - name: up
+  - name: node_cpu_seconds_total
+  - name: http_requests_total
+  - name: node_memory_MemAvailable_bytes
+lookback_hours: 1
+contamination: 0.05
